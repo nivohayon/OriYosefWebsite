@@ -10,20 +10,19 @@ const about = {
   role: "? רוצה להרים את כל המכונה",
   description: "מאמן כושר מוסמך מכללת וינגייט",
   freePlanText: "תוכנית ניסיון חינם",
-  resume:
-    "https://drive.google.com/file/d/1vdekGOQtvSVNGx3UbppUTn7W3rz2RPYp/view?usp=sharing",
   social: {
     tiktok: "https://www.tiktok.com/@oriyoseff",
     instagram: "https://www.instagram.com/ori.yoseff1/",
   },
 };
 
-const projectsTexts = {
+const planTypesTexts = {
   title: "סוגי תוכניות",
   premium: "PREMIUM",
+  buyNowText: "קנו עכשיו",
 };
 
-const projects = [
+const planTypes = [
   {
     name: "מתאמן מתקדם",
     description: "במכון חצי שנה - שנתיים",
@@ -38,4 +37,4 @@ const projects = [
   },
 ];
 
-export { header, about, projects, projectsTexts };
+export { header, about, planTypes, planTypesTexts };

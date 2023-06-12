@@ -1,4 +1,4 @@
-.Projects {
+.PlanTypes {
   margin-top: 3em;
 }
 #title {
@@ -35,6 +35,12 @@
   font-size: 7rem;
   color: transparent;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+}
+.buyNowButton {
+  position: absolute;
+  bottom: 2rem;
+  height: 3rem;
+  width: 8rem;
 }
 .card-index-0 {
   background: url("../../assets/images/1.PNG");

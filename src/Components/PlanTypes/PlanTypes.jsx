@@ -1,14 +1,14 @@
-import { Card, Col, Container, Row } from "react-bootstrap";
-import { projects, projectsTexts } from "../../PortfolioData";
-import "./Projects.css";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { planTypes, planTypesTexts } from "../../PortfolioData";
+import "./PlanTypes.css";
 
-function Projects() {
+function PlanTypes() {
   return (
-    <Container className="Projects" id={projectsTexts.title}>
-      <h1 id="title">{projectsTexts.title}</h1>
+    <Container className="PlanTypes" id={planTypesTexts.title}>
+      <h1 id="title">{planTypesTexts.title}</h1>
       <Row>
-        {projects.length &&
-          projects.map((project, index) => (
+        {planTypes.length &&
+          planTypes.map((project, index) => (
             <Col
               style={{
                 marginTop: "1.5em",
@@ -32,17 +32,20 @@ function Projects() {
                   <div className="cardBody">
                     <p
                       className={`cardTitle ${
-                        index === projects.length - 1 ? "last" : ""
+                        index === planTypes.length - 1 ? "last" : ""
                       }`}
                     >
                       {project.name}
                     </p>
                     <p className="cardDescription">{project.description}</p>
-                    {index === projects.length - 1 && (
+                    {index === planTypes.length - 1 && (
                       <span className="premiumText">
-                        {projectsTexts.premium}
+                        {planTypesTexts.premium}
                       </span>
                     )}
+                    <Button className="buyNowButton" variant="light">
+                      {planTypesTexts.buyNowText}
+                    </Button>
                   </div>
                 </Card.Body>
               </Card>
@@ -53,4 +56,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default PlanTypes;
