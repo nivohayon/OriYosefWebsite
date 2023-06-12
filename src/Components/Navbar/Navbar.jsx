@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { header } from "../../PortfolioData.js";
+import { header } from "../../AppData.js";
 import "../Navbar/Navbar.css";
 
 function Navbar() {

@@ -1,5 +1,5 @@
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import { planTypes, planTypesTexts } from "../../PortfolioData";
+import { planTypes, planTypesTexts } from "../../AppData";
 import "./PlanTypes.css";
 
 function PlanTypes() {
