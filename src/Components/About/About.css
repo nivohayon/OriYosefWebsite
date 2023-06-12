@@ -1,0 +1,80 @@
+.about {
+  flex-direction: column;
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.aboutName {
+  color: var(--clr-primary);
+}
+
+.aboutRole {
+  margin-top: 1.2em;
+}
+
+.aboutDesc {
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+#description,
+.aboutContact {
+  text-align: center;
+  margin-top: 2.4em;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .resumebtn--outline {
+  margin-right: 1em;
+}
+.resumebtn {
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.8em 1.4em;
+  font-weight: 500;
+  font-size: 1em;
+  text-transform: lowercase;
+  transition: transform 0.2s ease-in-out;
+}
+
+.resumebtn--outline {
+  color: var(--clr-primary);
+  border: 2px solid var(--clr-primary);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.resumebtn--outline:hover,
+.resumebtn--outline:focus {
+  color: var(--clr-bg);
+}
+
+.resumebtn--outline:before {
+  content: "";
+  position: absolute;
+  background-color: var(--clr-primary);
+  right: 100%;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: right 0.2s ease-in-out;
+}
+
+.resumebtn--outline:hover:before,
+.resumebtn--outline:focus:before {
+  right: 0;
+}
+.center {
+  display: flex;
+  align-items: center;
+}
+#social {
+  font-size: 2em;
+}

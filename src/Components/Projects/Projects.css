@@ -1,0 +1,50 @@
+.Projects {
+  margin-top: 3em;
+}
+#title {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.cardBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardTitle {
+  font-weight: 800;
+  font-size: 3rem;
+  margin: 0;
+  color: #fff;
+}
+.last {
+  color: #cfc219;
+}
+.cardDescription {
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin: 0;
+  color: #fff;
+}
+.premiumText {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 7rem;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+}
+.card-index-0 {
+  background: url("../../assets/images/1.PNG");
+  background-size: 100% 100%;
+}
+.card-index-1 {
+  background: url("../../assets/images/2.PNG");
+  background-size: 100% 100%;
+}
+.card-index-2 {
+  background: url("../../assets/images/3.PNG");
+  background-size: 100% 100%;
+}

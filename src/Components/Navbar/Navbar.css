@@ -1,0 +1,79 @@
+#Navbar {
+    margin-top: 1.5em;
+}
+#Logo {
+    margin-left: 1em;
+    color: var(--clr-primary);
+    text-decoration: none;
+    padding: 0 0 0.3em 0;
+    position: relative;
+    text-decoration: none;
+}
+#bounce:active {
+  animation: up 1s ease infinite;
+}
+#bounce {
+  animation: base 1s ease infinite;
+}
+@keyframes up {
+  5% { transform: translateY(-15%);}
+}
+@keyframes base {
+  100% { transform: translateY(0%);}
+}
+#Logo:hover {
+  color: var(--clr-primary);
+}
+#Logo::before {
+  content: '';
+  display: inline;
+  width: 0%;
+  height: 0.2em;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--clr-primary);
+  transition: width 0.2s ease-in;
+}
+#Logo:hover::before,
+#Logo:focus::before {
+width: 100%;
+}
+#ToggleTheme {
+    font-size: 1.5em;
+    cursor: pointer;
+    text-align: center;
+}
+
+.NavCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    color: var(--clr-primary);
+    padding: 0 0 0.3em 0;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: var(--clr-primary);
+  }
+  
+  .link::before {
+    content: '';
+    display: inline;
+    width: 0%;
+    height: 0.2em;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--clr-primary);
+    transition: width 0.2s ease-in;
+  }
+  
+  .link:hover::before,
+  .link:focus::before {
+    width: 100%;
+  }
+  
