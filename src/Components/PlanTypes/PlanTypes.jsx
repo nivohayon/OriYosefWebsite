@@ -20,8 +20,8 @@ function PlanTypes() {
               <Card
                 className={`card-index-${index}`}
                 style={{
-                  width: "36em",
-                  height: "36em",
+                  width: "28em",
+                  height: "28em",
                   textAlign: "center",
                   boxShadow: "0 0 2vh #999999",
                   borderStyle: "none",
