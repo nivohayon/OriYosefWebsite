@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/OriYosefWebsite/static/css/main.b596b007.chunk.css",
+    "main.js": "/OriYosefWebsite/static/js/main.7ef04811.chunk.js",
+    "main.js.map": "/OriYosefWebsite/static/js/main.7ef04811.chunk.js.map",
+    "runtime-main.js": "/OriYosefWebsite/static/js/runtime-main.7468d5c7.js",
+    "runtime-main.js.map": "/OriYosefWebsite/static/js/runtime-main.7468d5c7.js.map",
+    "static/css/2.ac45d37a.chunk.css": "/OriYosefWebsite/static/css/2.ac45d37a.chunk.css",
+    "static/js/2.65b39376.chunk.js": "/OriYosefWebsite/static/js/2.65b39376.chunk.js",
+    "static/js/2.65b39376.chunk.js.map": "/OriYosefWebsite/static/js/2.65b39376.chunk.js.map",
+    "index.html": "/OriYosefWebsite/index.html",
+    "static/css/2.ac45d37a.chunk.css.map": "/OriYosefWebsite/static/css/2.ac45d37a.chunk.css.map",
+    "static/css/main.b596b007.chunk.css.map": "/OriYosefWebsite/static/css/main.b596b007.chunk.css.map",
+    "static/js/2.65b39376.chunk.js.LICENSE.txt": "/OriYosefWebsite/static/js/2.65b39376.chunk.js.LICENSE.txt",
+    "static/media/PlanTypes.css": "/OriYosefWebsite/static/media/3.5b853840.PNG",
+    "static/media/index.css": "/OriYosefWebsite/static/media/background.d9807e6a.jpg",
+    "static/media/bootstrap-icons.css": "/OriYosefWebsite/static/media/bootstrap-icons.38c4d249.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7468d5c7.js",
+    "static/css/2.ac45d37a.chunk.css",
+    "static/js/2.65b39376.chunk.js",
+    "static/css/main.b596b007.chunk.css",
+    "static/js/main.7ef04811.chunk.js"
+  ]
+}
