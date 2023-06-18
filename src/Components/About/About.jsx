@@ -3,7 +3,7 @@ import { about } from "../../AppData";
 import "../About/About.css";
 
 function About() {
-  const { name, role, description, resume, social } = about;
+  const { name, role, description, freePlanText, social } = about;
   return (
     <div className="about">
       {name && (
@@ -23,7 +23,7 @@ function About() {
       </div>
 
       <div className="aboutContact center">
-        {resume && (
+        {freePlanText && (
           <div
             onClick={() => {
               alert("Coming Soon!");
@@ -34,7 +34,7 @@ function About() {
             <span
               type="button"
               title="Download Free Plan"
-              className="resumebtn resumebtn--outline"
+              className="freePlanText freePlanText--outline"
             >
               <i
                 style={{

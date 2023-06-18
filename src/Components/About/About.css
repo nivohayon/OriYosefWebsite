@@ -27,10 +27,10 @@
   margin-right: 0.8em;
 }
 
-.about .resumebtn--outline {
+.about .freePlanText--outline {
   margin-right: 1em;
 }
-.resumebtn {
+.freePlanText {
   display: flex;
   gap: 0.5rem;
   cursor: pointer;
@@ -41,7 +41,7 @@
   transition: transform 0.2s ease-in-out;
 }
 
-.resumebtn--outline {
+.freePlanText--outline {
   color: var(--clr-primary);
   border: 2px solid var(--clr-primary);
   position: relative;
@@ -49,12 +49,12 @@
   z-index: 1;
 }
 
-.resumebtn--outline:hover,
-.resumebtn--outline:focus {
+.freePlanText--outline:hover,
+.freePlanText--outline:focus {
   color: var(--clr-bg);
 }
 
-.resumebtn--outline:before {
+.freePlanText--outline:before {
   content: "";
   position: absolute;
   background-color: var(--clr-primary);
@@ -66,8 +66,8 @@
   transition: right 0.2s ease-in-out;
 }
 
-.resumebtn--outline:hover:before,
-.resumebtn--outline:focus:before {
+.freePlanText--outline:hover:before,
+.freePlanText--outline:focus:before {
   right: 0;
 }
 .center {

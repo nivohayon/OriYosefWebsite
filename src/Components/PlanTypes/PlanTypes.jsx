@@ -43,7 +43,13 @@ function PlanTypes() {
                         {planTypesTexts.premium}
                       </span>
                     )}
-                    <Button className="buyNowButton" variant="light">
+                    <Button
+                      className="buyNowButton"
+                      variant="light"
+                      onClick={() => {
+                        alert("Coming Soon!");
+                      }}
+                    >
                       {planTypesTexts.buyNowText}
                     </Button>
                   </div>
